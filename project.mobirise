@@ -12028,7 +12028,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/estado-del-arte-2-945x756.png",
+                "image": "@PROJECT_PATH@/assets/images/estado-del-arte-3-945x756.png",
                 "active": true,
                 "showButtons": false,
                 "showText": false,
