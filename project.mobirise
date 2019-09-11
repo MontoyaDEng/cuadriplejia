@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Fundamentos de biodiseño",
-    "currentPage": "page12.html",
+    "currentPage": "estado_arte.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -9629,6 +9629,7 @@
           "_name": "slider2",
           "_customHTML": "<section class=\"carousel slide\" group=\"Sliders & Gallery\" plugins=\"YTPlayer,VimeoPlayer,SliderVideo,BootstrapCarouselSwipe\" data-interval=\"false\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <!-- <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> -->\n        <input type=\"hidden\" name=\"typeSlider\" value=\"headerSlider\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" inline>\n        <input type=\"range\" title=\"Width\" name=\"sliderWSize\" min=\"50\" max=\"100\" step=\"1\" value=\"77\" inline>\n        <input type=\"range\" title=\"Height\" name=\"sliderHSize\" min=\"300\" max=\"700\" step=\"10\" value=\"390\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#b2ccd2\">\n        <input type=\"carousel\" title=\"Slides\" name=\"slides\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"container content-slider\">\n        <div class=\"content-slider-wrap\">\n            <div mbr-carousel=\"slides\"></div> \n        </div>\n    </div>\n</section>",
           "_cid": "rBMqTeaPq0",
+          "_anchor": "slider2-6s",
           "_protectedParams": [
             "slides__autoplay",
             "slides__autoplayInterval",
@@ -9762,8 +9763,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
               }
             ]
-          },
-          "_anchor": "slider2-6s"
+          }
         },
         {
           "alias": false,
@@ -12028,8 +12028,8 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/2-945x756.png",
-                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/estado-del-arte-2-945x756.png",
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -12096,23 +12096,6 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/7-945x756.png",
-                "active": true,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-2",
-                "customStyle2": "display-7",
-                "customStyle3": "display-4",
-                "title": "CARRUSEL DE IMÁGENES A PANTALLA COMPLETA",
-                "overlay": false,
-                "contentAlign": "left",
-                "text": "Elija entre la gran selección de bloques prediseñados más recientes: jumbotrons,  hero images, desplazamiento con paralaje, fondos con videos, menú de hamburguesa, encabezado fijo y más.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
-              },
-              {
                 "image": "@PROJECT_PATH@/assets/images/8-945x756.png",
                 "active": false,
                 "showButtons": false,
@@ -12128,6 +12111,23 @@
                 "contentAlign": "left",
                 "text": "Elija entre la gran selección de bloques prediseñados más recientes: jumbotrons,  hero images, desplazamiento con paralaje, fondos con videos, menú de hamburguesa, encabezado fijo y más.",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/estado-del-arte-1-945x756.png",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-2",
+                "customStyle2": "display-7",
+                "customStyle3": "display-4",
+                "title": "DIAPOSITIVA DE VIDEO",
+                "overlay": false,
+                "contentAlign": "center",
+                "text": "Diapositiva con fondo de video de youtube y superposición con color. El título y el texto están alineados a la izquierda.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
               }
             ]
           }
@@ -12147,7 +12147,8 @@
             },
             ".section-text": {
               "padding": "2rem 0",
-              "text-align": "left"
+              "text-align": "left",
+              "color": "#000000"
             },
             ".inner-container": {
               "margin": "0 auto"
@@ -12159,7 +12160,7 @@
             }
           },
           "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#55b4d4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".section-text\" mbr-text><b>Referencias \n</b><br><b><br></b><div>[1<span style=\"font-size: 1rem;\">] ElPeriódico. (2018, 27 marzo). Se aplica tecnología textil 3D en la prevención de las úlceras por presión en pacientes encamados [Comunicado de prensa ]. Recuperado 28 marzo, 2018, de https://www.elperiodico.com/es/mataro/20180327/se-aplica-tecnologia-textil-3d-en-la-prevencion-de-las-ulceras-por-presion-en-pacientes-encamados-6718375</span></div><br><div><span style=\"font-size: 1rem;\">[2</span><span style=\"font-size: 1rem;\">] León Mangado, J. A. Jos. (2015, 4 agosto). Apósito inteligente que ayuda a prevenir úlceras por presión [Publicación en un blog]. Recuperado 10 septiembre, 2019, de http://www.upppediatria.org/aposito-inteligente-que-ayuda-a-prevenir-ulceras-por-presion/&nbsp;</span></div><br><div><span style=\"font-size: 1rem;\">[3] Prado, A., Andrades, P., &amp; Benítez, S. (2017, 6 septiembre). ÚLCERAS POR PRESIÓN. Recuperado 10 septiembre, 2019, de http://www.patricioandrades.cl/wp-content/uploads/2011/05/8-Ulceras-por-Presion.pdf\n</span></div><div><span style=\"font-size: 1rem;\"><br></span></div><br><div>[4] Quatum Rehab, Pride Mobility Products Corporation. (2019) Quantum Rehab: About Us. Recuperado de https://www.quantumrehab.com/.</div><br><div>[5] Arrese, A. (2015). Sistema mecatrónico para rehabilitación de pacientes con parálisis total o parcial en miembros superiores. Repositorio Tesis PUCP. Recuperado de http://hdl.handle.net/20.500.12404/6136</div><br><div>[6] Janneth Aldecoa. (12 de octubre de 2016).Crean colchón antiescaras automatizado. Recuperado de:http://www.cienciamx.com/index.php/ciencia/salud/10406-crean-colchon-antiescaras</div><br><div>[7]Federico Caballero Sánchez.(2008). Cama para la prevención de úlceras por presión (U.P.P.). Disponible en: file:///C:/Users/LUZZ/Downloads/DialnetCamaParaLaPrevencionDeUlcerasPorPresionUPP-4608267.pdf&nbsp;</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#55b4d4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".section-text\" mbr-text><b>Referencias \n</b><br><b><br></b><div>[1<span style=\"font-size: 1rem;\">] Eurecat. (2018, 6 marzo). Aplican tecnología textil 3D en la prevención de las úlceras por presión en pacientes encamados. Recuperado 10 septiembre, 2019, de https://eurecat.org/es/eurecat-3d-integfoot/</span></div><br><div><span style=\"font-size: 1rem;\">[2</span><span style=\"font-size: 1rem;\">] Sanchez Morcillo, J. (2015b, 1 julio). Apósitos dérmicos con agentes bioactivos especiales. Recuperado 10 septiembre, 2019, de https://gruposdetrabajo.sefh.es/gps/images/stories/otros/EF526_OFICINA_DE_FARMACIA_APOSITOS.pdf</span></div><br><div><span style=\"font-size: 1rem;\">[3] Prado, A., Andrades, P., &amp; Benítez, S. (2017, 6 septiembre). ÚLCERAS POR PRESIÓN. Recuperado 10 septiembre, 2019, de http://www.patricioandrades.cl/wp-content/uploads/2011/05/8-Ulceras-por-Presion.pdf\n</span></div><div><br></div><div>[4] Quatum Rehab, Pride Mobility Products Corporation. (2019) Quantum Rehab: About Us. Recuperado de https://www.quantumrehab.com/.</div><br><div>[5] Arrese, A. (2015). Sistema mecatrónico para rehabilitación de pacientes con parálisis total o parcial en miembros superiores. Repositorio Tesis PUCP. Recuperado de http://hdl.handle.net/20.500.12404/6136</div><br><div>[6]Caballero Sánchez, F. (2008). Cama para la prevención de úlceras por presión (U.P.P.) [Ebook]. Universidad de Málaga. Retrieved from https://patentimages.storage.googleapis.com/cc/00/89/f31ab193f431cc/ES2267405A1.pdf</div><br><div>[7] Sherif,S &amp; Wael, T. (2018). Negative Pressure vs Compression in Venous Ulcers. <i>ClinicalTrials.gov. </i>Retrieved from&nbsp;https://clinicaltrials.gov/ct2/show/NCT03688841</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_anchor": "content9-6n",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
