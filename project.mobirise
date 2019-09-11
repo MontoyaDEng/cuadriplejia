@@ -613,7 +613,8 @@
               "text-align": "center"
             },
             ".mbr-crt-title": {
-              "text-align": "center"
+              "text-align": "right",
+              "color": "#232323"
             }
           },
           "_name": "features12",
